@@ -1,0 +1,61 @@
+img.c {
+    position:absolute; 
+}
+div.bg { 
+    position: absolute; 
+    left: 0px; 
+    width: 16000px; 
+    background-repeat: repeat-x; 
+}
+body {
+    margin:0 0; 
+    background-color:black;
+}
+
+#board {
+    position:absolute; 
+    left:50px; 
+    top:50px; 
+    width:478px; 
+    height:300px; 
+    overflow:hidden;
+}
+
+#score{
+    position:absolute; 
+    left:370px;
+    right:15px;
+    top:20px;
+    padding-left: 5px;
+    height:40px; 
+    z-index:5; 
+    color:green; 
+    font-weight:900;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+}
+
+.c{
+    z-index:5;
+}
+
+#instr {
+    left:205px; 
+    top:75px; 
+    z-index:100;
+}
+
+#bGrnd{
+    top:-20px; 
+    height:320px; 
+    background-image:url(pics/bg1.png);
+}
+
+#fGrnd{
+    top:240px; 
+    height:85px; 
+    z-index:4; 
+    background-image:url(pics/bg2.png);
+}
